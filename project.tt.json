@@ -1,13 +1,9 @@
 {
   "miniprogramRoot": "./",
-  "projectname": "qdm",
-  "description": "taro-demo",
-  "appid": "touristappid",
+  "projectname": "teahouse",
+  "appid": "testAppId",
   "setting": {
-    "urlCheck": true,
     "es6": false,
-    "postcss": false,
     "minified": false
-  },
-  "compileType": "miniprogram"
+  }
 }

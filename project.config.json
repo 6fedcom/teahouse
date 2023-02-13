@@ -1,15 +1,31 @@
 {
-  "miniprogramRoot": "./dist",
-  "projectname": "qdm",
-  "description": "taro-demo",
-  "appid": "touristappid",
+  "miniprogramRoot": "dist/",
+  "projectname": "teahouse",
+  "description": "茶馆",
+  "appid": "wx2da64b66ef4e7fe8",
   "setting": {
     "urlCheck": true,
     "es6": false,
     "enhance": false,
     "compileHotReLoad": false,
     "postcss": false,
-    "minified": false
+    "minified": false,
+    "babelSetting": {
+      "ignore": [],
+      "disablePlugins": [],
+      "outputPath": ""
+    }
   },
-  "compileType": "miniprogram"
+  "compileType": "miniprogram",
+  "libVersion": "2.30.0",
+  "srcMiniprogramRoot": "dist/",
+  "packOptions": {
+    "ignore": [],
+    "include": []
+  },
+  "condition": {},
+  "editorSetting": {
+    "tabIndent": "insertSpaces",
+    "tabSize": 2
+  }
 }
