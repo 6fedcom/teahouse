@@ -1,6 +1,6 @@
 import { Component, PropsWithChildren } from 'react'
 import { Button, View, Navigator } from '@tarojs/components'
-import Taro, { useState } from '@tarojs/taro'
+ 
 import './index.scss'
 
 
@@ -20,6 +20,9 @@ export default class Index extends Component<PropsWithChildren> {
 
         <Navigator url='/pages/mine/index' hover-class='navigator-hover'>
           <Button type='primary' >我的</Button>
+        </Navigator>
+        <Navigator url='/pages/test/index' hover-class='navigator-hover'>
+          <Button type='primary' >测试页面</Button>
         </Navigator>
         <Navigator url='../../redirect/redirect/redirect?title=redirect'
           open-type='redirect' hover-class='other-navigator-hover'

@@ -1,5 +1,6 @@
 import { Component, PropsWithChildren } from 'react'
 import { View, Text, NavigationBar } from '@tarojs/components'
+
 import './index.scss'
 
 export default class Mine extends Component<PropsWithChildren> {
@@ -27,7 +28,7 @@ export default class Mine extends Component<PropsWithChildren> {
             </View>
           </View>
           <View>
-            主页
+            个人主页
           </View>
         </View>
       </View>
